@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>サークル詳細</title>
+  <link rel="stylesheet" href="css/circle.css">
+</head>
+<body>
+
+  <script>//最終的には別ファイル予定
+    const xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = receive;
+    const url = "http://www01.do-johodai.ac.jp/";//仮として情報大
+    xhr.open("GET",url);
+    xhr.send();
+
+    function receive(){
+      if(xhr.readyState == 4 && xhr.status == 200){
+        const result = JSON.parse(xhr.responseText);
+        let re_circleName;
+        let re_people;
+        let re_dotwIn;
+        let re_timeIn;
+        let re_requiredIn;
+        let re_datalisIn;
+        let re_imageIn;
+        //各変数にJSONファイルから引いた文字列を代入(result.の後にJSONファイル内での各名称が必要)
+        re_circleName = result.name;
+        re_people = result.name;
+        re_dotwIn = result.name;
+        re_timeIn = result.name;
+        re_requiredIn = result.name;
+        re_datalisIn = result.name;
+        re_imageIn = result.name;
+        //DOMでhtml側からクラスを指定
+        let b_circleName = document.querySelector("#circle-name");
+        let b_people = document.querySelector("#people");
+        let b_dotwIn = document.querySelector("#dotw-in");
+        let b_timeIn = document.querySelector("#time-in");
+        let b_requiredIn = document.querySelector("#required-in");
+        let b_datalisIn = document.querySelector("#datalis-in");
+        let b_imageIn = document.querySelector("#image-in");
+        //JSONで帰ってきた文字列をhtmlに書き込む
+        b_circleName.textContent = re_circleName;
+        b_people.textContent = re_people;
+        b_dotwIn.textContent = re_dotwIn;
+        b_timeIn.textContent = re_timeIn;
+        b_requiredIn.textContent = re_requiredIn;
+        b_datalisIn.textContent = re_datalisIn;
+        b_imageIn.textContent = re_datalisIn;
+      }
+    }    
+  </script>
+
+  <div id="main-content">
+    <div id="circle-name">Web制作サークル</div><!--サークル名が入る-->
+    <p id=people>人数</p>
+    <div id="people-in">18人</div><!--人数が入る-->
+    <p id=dotw>曜日</p>
+    <div id="dotw-in">火曜日・木曜日</div><!--活動曜日が入る-->
+    <p id=time>時間</p>
+    <div id="time-in">17:00~18:00</div><!--活動時間が入る-->
+    <p id="required">必要事項</p>
+    <div id="required-in">パソコンをなるべく持っていると良いです</div><!--必要事項が入る-->
+    <p id="datalis">活動内容</p>
+    <div id="datalis-in">このサークルは週2で活動しています。基本的に興味のある時に参加するような形でいろいろしてます。みんな仲良くしています。焼肉やZOOMで飲み会もしてます。写真張っておきます。質問したい方はしたのチャット欄で匿名で話しましょう。</div><!--活動内容が入る-->
+    <div id="image-in"></div><!--イメージ写真が入る-->
+    <p id="sns">SNS</p>
+    <div id="sns-flex">
+      <div id="twitter">twitter</div>
+      <div id="youtube">YouTube</div>
+      <div id="facebook">facebook</div>
+    </div>
+  </div>
+
+</body>
+</html>

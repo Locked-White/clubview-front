@@ -1,0 +1,57 @@
+#main-content{
+  background-color: #ffec47;
+  width: 70%;
+  margin: 0 auto;
+  padding: 50px 80px 50px 150px;
+  border-radius: 160px;
+}
+#circle-name{
+  font-size: 64px;
+  margin: 0 0 0 80px;
+}
+#people{
+  font-size: 26px;
+  margin: 0 0 0 20px;
+}
+#people-in{
+  font-size: 56px;
+  margin: 0 0 20px 160px;
+}
+#dotw{
+  font-size: 26px;
+  margin: 0 0 0 20px;
+}
+#dotw-in{
+  font-size: 56px;
+  margin: 0 0 20px 160px;
+}
+#time{
+  font-size: 26px;
+  margin: 0 0 0 20px;
+}
+#time-in{
+  font-size: 56px;
+  margin: 0 0 20px 160px;
+}
+#required{
+  font-size: 26px;
+  margin: 0 0 0 20px;
+}
+#required-in{
+  margin: 0 0 30px 40px;
+}
+#datalis{
+  font-size: 26px;
+  margin: 0 0 0 20px;
+}
+#datalis-in{
+  margin: 0 0 30px 40px;
+}
+#sns{
+  margin: 100px 0 20px 60px;
+  font-size: 26px;
+}
+#sns-flex{
+  display: flex;
+  justify-content: space-around;
+}
