@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/* 共通
+------------------------------- */
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row{
+    background:rgba(255, 233, 115, 0.55);
+    border-radius: 80px;
+    padding: 60px 60px 80px 60px;
+}
+.col{
+    margin: 30px 0;
+}
+
+h1{
+    text-align: center;
+}
+
+.btn{
+    text-align: center;
+    padding: 30px 0;
+    
+}
+.button {
+    margin: 0 auto;
+    font-size: 1.375rem;
+    background: #ffa500;
+    color: #000;
+    border-radius: 30px;
+    padding: 16px 30px;
+    color: white;
+}
+.button:hover {
+    background: #ffff00;
+}
