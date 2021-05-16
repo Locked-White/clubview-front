@@ -16,7 +16,7 @@
     <div id="home">
       <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="#" id="nav-logo">
             <img id="navbar-logo" src="images/logo.png" alt="logo">
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,9 +36,6 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">問い合わせ</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">宣伝希望</a>
               </li>
             </ul>
       
@@ -84,17 +81,19 @@
       </div>
     </div>
 
-    <div class="container sub-content sub-two">
-      <div class="row align-items-center">
-        <div class="col-sm-12 col-md-6 order-sm-2 order-md-1">
-          <div class="explanation">
-            <h1>サークルを<br>探すのは大変</h1>
-            <p>このサイトでは情報大のサークル全部を見ることが可能です。<br>
-               また、サークルの人とチャットすることも可能です。疑問に思ったことを質問することができます。</p>
+    <div class="fullwidth-one">
+      <div class="container sub-content sub-two">
+        <div class="row align-items-center">
+          <div class="col-sm-12 col-md-6 order-sm-2 order-md-1">
+            <div class="explanation">
+              <h1>サークルを<br>探すのは大変</h1>
+              <p>このサイトでは情報大のサークル全部を見ることが可能です。<br>
+                 また、サークルの人とチャットすることも可能です。疑問に思ったことを質問することができます。</p>
+            </div>
           </div>
-        </div>
-        <div class="col-sm-12 col-md-6 img-hidden order-sm-1 order-md-2">
-          <img src="images/sub-img-2.jpg" alt="img" class="img-fulied">
+          <div class="col-sm-12 col-md-6 img-hidden order-sm-1 order-md-2">
+            <img src="images/sub-img-2.jpg" alt="img" class="img-fulied">
+          </div>
         </div>
       </div>
     </div>
@@ -120,33 +119,51 @@
                 <p>サークルを探そう ！</p>
             </div>
         </div>
-        <a class="button3" href="#">新規登録</a>
+        <a class="button3" href="signup.html">新規登録</a>
       </div>
     </div>
 
-    <div class="sns-content container">
-      <h2 class="sns-title">SNS</h2>
-      <section id="sns">
-          <div class="row">
-              <div class="sns-box col-sm-12 col-md-4">
-                  <h3 class="sub-title">Twitter</h3>
-                  <a class="twitter-timeline" data-height="315" href="https://twitter.com/yasuda_lab?ref_src=twsrc%5Etfw">Twitterコンテンツ</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-              </div>
-              <div class="sns-box col-sm-12 col-md-4">
-                  <h3 class="sub-title">YouTube</h3>
-                  <iframe width="340" height="315" src="https://www.youtube.com/embed/nSmyq0f9L8I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              </div>
-              <div class="sns-box col-sm-12 col-md-4">
-                  <h3 class="sub-title">Facebook</h3>
-                  <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fjohodai%2F%3Fref%3Dpage_internal&tabs=timeline&width=340&height=315&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="340" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-              </div>
-          </div>
-      </section>
+
+    <div class="fullwidth-two">
+      <div class="sns-content container">
+        <h2 class="sns-title">SNS</h2>
+        <section id="sns">
+            <div class="row">
+                <div class="sns-box col-sm-12 col-md-4">
+                    <h3 class="sub-title">Twitter</h3>
+                    <a class="twitter-timeline" data-height="315" href="https://twitter.com/yasuda_lab?ref_src=twsrc%5Etfw">Twitterコンテンツ</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+                <div class="sns-box col-sm-12 col-md-4">
+                    <h3 class="sub-title">YouTube</h3>
+                    <iframe width="340" height="315" src="https://www.youtube.com/embed/nSmyq0f9L8I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="sns-box col-sm-12 col-md-4">
+                    <h3 class="sub-title">Facebook</h3>
+                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fjohodai%2F%3Fref%3Dpage_internal&tabs=timeline&width=340&height=315&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="340" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                </div>
+            </div>
+        </section>
+      </div>
     </div>
 
     <footer>
+      <a class="footer-logo" href="#">
+        <img src="images/logo.png" alt="logo">
+      </a>
       <div class="footer">
-          <p><small>&copy; 北海道情報大学サークルサイト</small></p>
+          <div class="container">
+              <div class="row">
+                  <div class="col" id="footer-items">
+                    <a class="footer-item" href="#">サークル</a>
+                    <a class="footer-item" href="#">チャット</a>
+                    <a class="footer-item" href="#">問い合わせ</a>
+                  </div>
+                  <br>
+                  <div class="col-sm-12 footer-p">
+                    <p><small>&copy; 北海道情報大学サークルサイト</small></p>
+                  </div>
+              </div>
+          </div>
       </div>
     </footer>
     
