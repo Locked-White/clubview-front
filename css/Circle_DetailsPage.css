@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+/* 共通部分
+------------------------------- */
+html {
+    font-size: 100%;
+}
+body{
+    line-height: 1.7;
+    color: black;
+}
+img {
+    max-width: 100%;
+}
+a {
+    text-decoration: none;
+}
+
+/* header
+------------------------------- */
+#nav-logo{
+    margin-right: 60px;
+}
+.navbar{
+    background-color: #fff;
+}
+.navbar-brand{
+    display: block;
+	width: 80px;
+	height: 70px;
+}
+.nav-item{
+    padding: 0 35px;
+}
+.nav-items{
+    margin: 0 auto;
+}
+/* Content
+------------------------------- */
+#main-content{
+    background:rgba(255, 233, 115, 0.55);
+    width: 75%;
+    margin: 150px auto 50px auto;
+    padding: 50px 80px 50px 150px;
+    border-radius: 160px;
+  }
+  #circle-name{
+    font-size: 52px;
+    margin: 0 0 0 80px;
+  }
+  #people{
+    font-size: 26px;
+    margin: 0 0 0 20px;
+  }
+  #people-in{
+    font-size: 32px;
+    margin: 0 0 20px 160px;
+  }
+  #dotw{
+    font-size: 26px;
+    margin: 0 0 0 20px;
+  }
+  #dotw-in{
+    font-size: 32px;
+    margin: 0 0 20px 160px;
+  }
+  #time{
+    font-size: 26px;
+    margin: 0 0 0 20px;
+  }
+  #time-in{
+    font-size: 32px;
+    margin: 0 0 20px 160px;
+  }
+  #required{
+    font-size: 26px;
+    margin: 0 0 0 20px;
+  }
+  #required-in{
+    margin: 0 0 30px 40px;
+  }
+  #datalis{
+    font-size: 26px;
+    margin: 0 0 0 20px;
+  }
+  #datalis-in{
+    margin: 0 0 30px 40px;
+  }
+  #sns{
+    margin: 100px 0 20px 60px;
+    font-size: 26px;
+  }
+  #sns-flex{
+    display: flex;
+    justify-content: space-around;
+  }
+
+/* footer
+------------------------------- */
+.footer-logo{
+    display: block;
+    width: 90px;
+    height: 80px;
+    margin: 0 auto;
+}
+#footer-items{
+    text-align: center;
+    margin: 15px 0;
+}
+.footer-item{
+    padding: 0 10px;
+}
+footer {
+    background: #FFFFF2;
+    padding: 13px 0;
+}
+.footer-p {
+    color: #000;
+    font-size: 0.875rem;
+    text-align: center;
+}
