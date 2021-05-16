@@ -34,7 +34,9 @@ h1{
     border-radius: 30px;
     padding: 16px 30px;
     color: white;
+    text-decoration: none;
 }
 .button:hover {
     background: #ffff00;
+    text-decoration: none;
 }
