@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+/* 共通部分
+------------------------------- */
+html {
+    font-size: 100%;
+}
+body{
+    line-height: 1.7;
+    color: black;
+}
+img {
+    max-width: 100%;
+}
+#home{
+    margin-bottom: 100px;
+}
+
+/* header
+------------------------------- */
+#nav-logo{
+    margin-right: 60px;
+}
+.navbar{
+    background-color: #fff;
+}
+.navbar-brand{
+    display: block;
+	width: 80px;
+	height: 70px;
+}
+.nav-item{
+    padding: 0 35px;
+}
+.nav-items{
+    margin: 0 auto;
+}
+
+/* main-content
+------------------------------- */
+
+
+/* container-fluid
+------------------------------- */
+.first{
+    background-color: rgba(115, 255, 159);
+}
+.side-title{
+    padding-left: 60px;
+}
+
+/* side
+------------------------------- */
+.side{
+    background-color: rgba(255, 175, 92);
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 830px;
+}
+#f{
+    margin-top: 20px;
+}
+.circlelist{
+    margin-left: 25px;
+    margin-bottom: 5px;
+}
+
+/* ボタン. */
+.button {
+    font-size: 15px;
+    background: #FFE973;
+    color: #000;
+    border-radius: 30px;
+    padding: 6px 20px;
+    margin: 70px;
+}
+.button:hover {
+    background: #FF570D;
+    text-decoration: none;
+}
+
+
+/* column
+------------------------------- */
+.column{
+    margin-top: 10px;
+}
+.chat-text{
+    margin-left: 10px;
+}
+.user-text{
+    margin-left: 5px;
+}
+.wrapper{
+    margin: 0 0 20px 100px;
+    width: 1400px;
+    height: 700px;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.textbox{
+    margin-left: 100px;
+    width: 1400px;
+}
+
+/* footer
+------------------------------- */
+.footer-logo{
+    display: block;
+    width: 90px;
+    height: 80px;
+    margin: 0 auto;
+}
+#footer-items{
+    text-align: center;
+    margin: 15px 0;
+}
+.footer-item{
+    padding: 0 10px;
+}
+footer {
+    background: #FFFFF2;
+    padding: 26px 0;
+}
+.footer-p {
+    color: #000;
+    font-size: 0.875rem;
+    text-align: center;
+}
